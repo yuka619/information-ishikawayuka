@@ -1,0 +1,141 @@
+.header__inner {
+    margin: 0 auto;
+    max-width: 1512px;
+    height: 100px;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: 'lnika';
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-form__heading {
+    color: #8B7969;
+    font-family: 'lnika';
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.form {
+    margin: center;
+    width: 80%;
+    text-align: center;
+}
+
+.form__group {
+    color: #8B7969;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__label--item {
+    margin-left: 300px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__group--content{
+    padding: 674px;
+    width: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--last {
+    display: flex;
+    padding: 10px;
+    width: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--first {
+    padding: 10px;
+    width: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__gender {
+    display:center;
+}
+
+.form__gender--radio {
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form__gender--radio:checked:before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #000;
+    content: '';
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    width: 160px;
+    width: 30%;
+    height: 46px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
