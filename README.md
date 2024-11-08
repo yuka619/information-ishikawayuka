@@ -22,6 +22,8 @@ Laravel環境構築
 ・Laravel 8.83.27
 
 ・MYSQL 8.0.26
+![index](https://github.com/user-attachments/assets/06f33435-0f34-4414-8b64-2d47a7df2171)
+
 ## URL
 ・開発環境:http://localhost/
 
