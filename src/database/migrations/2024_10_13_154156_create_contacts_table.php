@@ -14,18 +14,17 @@ class CreateContactsTable extends Migration
     public function up()
     {
         Schema::create('contacts', function (Blueprint $table) {
-            $table->unsignedBigInteger('id');
+            $table->id();
             $table->unsignedBigInteger('category_id');
             $table->string('first_name');
             $table->string('last_name');
             $table->integer('gender');
             $table->string('email');
-            $table->string('tel');
+            $table->string('tell');
             $table->string('address');
             $table->string('building')->nullable();
             $table->text('detail');
-            $table->timestamp('created_at')->useCurrent()->nullable();
-            $table->timestamp('updated_at')->useCurrent()->nullable();
+            $table->timestamps();
         });
     }
 

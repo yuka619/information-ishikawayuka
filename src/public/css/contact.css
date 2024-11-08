@@ -1,0 +1,140 @@
+.contact-form__inner {
+    margin: 40px auto 0;
+    width: 78%;
+    font-size: 18px;
+}
+
+.contact-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 40px;
+
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-form__group:first-of-type {
+    margin-top: 0;
+}
+
+.contact-form__group:last-of-type {
+    align-items: flex-start;
+}
+
+.contact-form__required {
+    color: #FF6A6A;
+}
+
+.contact-form__input {
+    padding: 10px 18px;
+    background-color: #E8E8E8;
+    color: #C1AFA6;
+}
+
+.contact-form__name-inputs,
+.contact-form__tel-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 36px;
+}
+
+.contact-form__name-input {
+    width: 100%;
+}
+
+.contact-form__gender-inputs {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-form__gender-option {
+    margin-right: 72px;
+}
+
+.contact-form__gender-input {
+    position: absolute;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.contact-form__gender-text {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form__gender-text::before {
+    display: block;
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    content: '';
+}
+
+.contact-form__gender-input:checked+.contact-form__gender-text::before {
+    background: #8B7969;
+}
+
+.contact-form__tel-input {
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.contact-form__select-inner {
+    position: relative;
+}
+
+.contact-form__select-inner::after {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-top: 14px solid #C1AFA6;
+    border-right: 14px solid transparent;
+    border-left: 14px solid transparent;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.contact-form__select {
+    padding: 10px 18px;
+    width: 55%;
+    background-color: #E8E8E8;
+    color: #C1AFA6;
+}
+
+.contact-form__textarea {
+    padding: 10px 18px;
+    height: 160px;
+    background-color: #E8E8E8;
+    color: #C1AFA6;
+}
+
+.contact-form__btn {
+    margin: 40px auto 0;
+}
+
+.contact-form__error-message {
+    margin-top: 10px;
+    color: #FF6A6A;
+
+    grid-column: 2;
+}
+
+.contact-form__name-group .contact-form__error-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 36px;
+}
+
+.contact-form__error-message-first-name,
+.contact-form__error-message-last-name {
+    width: 100%;
+}

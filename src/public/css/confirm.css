@@ -1,76 +1,39 @@
-.header__inner {
-    margin: 0 auto;
-    padding: 20px 15px;
-    max-width: 1230px;
+.confirm-form__inner {
+    margin: 40px auto 0;
+    width: 80%;
+    font-size: 18px;
 }
 
-.header__logo {
-    color: #8B7969;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.confirm__content {
-    margin: 0 auto;
-    padding: 30px 15px;
-    max-width: 1230px;
-}
-
-.confirm__heading {
-    color: #8B7969;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.form {
-    margin: 0 auto;
-    width: 70%;
-}
-
-.confirm-table {
-    border: 1px solid #8B7969;
-}
-
-.confirm-table__inner {
+.confirm-form__table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.confirm-table__header {
-    padding: 15px;
-    width: 20%;
-    border-bottom: 1px solid #ddd;
-    background: #8B7969;
-    font-weight: bold;
+.confirm-form__row {
+    border: 2px solid #C0BDBD;
 }
 
-.confirm-table__text {
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
+.confirm-form__label,
+.confirm-form__data {
+    padding: 20px 40px;
 }
 
-.confirm-table__text input {
-    width: 100%;
-    outline: none;
-    border: none;
+.confirm-form__label {
+    width: calc(100% / 3);
+    background-color: #D1C6C1;
+    color: #FFF;
+    text-align: left;
+    font-weight: 500;
 }
 
-.confirm-table__row:last-child .confirm-table__header,
-.confirm-table__row:last-child .confirm-table__text {
-    border-bottom-width: 0;
+.confirm-form__btn-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
 }
 
-.form__button {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.form__button-submit {
-    width: 30%;
-    height: 50px;
-    border: none;
-    border-radius: 3px;
-    background: #82756A;
-    color: #fff;
-    cursor: pointer;
+.confirm-form__back-btn {
+    text-decoration: underline;
+    color: #007BFF;
 }
