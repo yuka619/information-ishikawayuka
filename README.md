@@ -28,3 +28,4 @@ Laravel環境構築
 ・開発環境:http://localhost/
 
 ・phpMyAdmin:http://localhost:80:80/
+# -
