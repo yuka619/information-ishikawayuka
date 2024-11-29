@@ -8,17 +8,17 @@
 <div class="contact-form">
   <h2 class="contact-form__heading content__heading">Contact</h2>
   <div class="contact-form__inner">
-    <form action="{{ route('contact.confirm') }}" method="POST">
+    <form action="/confirm" method="post">
       @csrf
       <div class="contact-form__group contact-form__name-group">
         <label class="contact-form__label" for="name">
           お名前<span class="contact-form__required">※</span>
         </label>
         <div class="contact-form__name-inputs">
-          <input class="contact-form__input contact-form__name-input" type="text" name="first_name" id="name"
-            value="{{ old('first_name') }}" placeholder="例：山田">
           <input class="contact-form__input contact-form__name-input" type="text" name="last_name" id="name"
-            value="{{ old('last_name') }}" placeholder="例：太郎">
+            value="{{ old('last_name') }}" placeholder="例：山田">
+          <input class="contact-form__input contact-form__name-input" type="text" name="first_name" id="name"
+            value="{{ old('first_name') }}" placeholder="例：太郎">
         </div>
         <div class="contact-form__error-message">
           @if ($errors->has('first_name'))

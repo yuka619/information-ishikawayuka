@@ -1,4 +1,4 @@
-.footer {
+.header {
     display: none;
 }
 
@@ -11,11 +11,11 @@
 
 .thanks-page__message {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .thanks-page__btn {
-    margin: 40px auto 0;
+    margin: 32px auto 0;
 }
 
 .thanks-page-bg__inner {
@@ -25,11 +25,11 @@
     z-index: -1;
     width: 100%;
     text-align: center;
-    font-family: 'Arial', sans-serif;
-    opacity: 0.1;
+    font-family: serif;
+    opacity: 0.05;
     transform: translate(-50%, -50%);
 }
 
 .thanks-page-bg__text {
-    font-size: 20vw;
+    font-size: 18vw;
 }

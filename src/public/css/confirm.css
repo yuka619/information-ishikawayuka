@@ -1,7 +1,7 @@
 .confirm-form__inner {
-    margin: 40px auto 0;
-    width: 80%;
-    font-size: 18px;
+    margin: 32px auto 0;
+    width: 74%;
+    font-size: 16px;
 }
 
 .confirm-form__table {
@@ -10,30 +10,30 @@
 }
 
 .confirm-form__row {
-    border: 2px solid #C0BDBD;
+    border: 1px solid #E0DFDE;
 }
 
 .confirm-form__label,
 .confirm-form__data {
-    padding: 20px 40px;
+    padding: 16px 48px;
 }
 
 .confirm-form__label {
     width: calc(100% / 3);
-    background-color: #D1C6C1;
+    background-color: #BAA899;
     color: #FFF;
     text-align: left;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .confirm-form__btn-inner {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    gap: 40px;
+    margin-top: 32px;
+
+    gap: 32px;
 }
 
 .confirm-form__back-btn {
     text-decoration: underline;
-    color: #007BFF;
 }

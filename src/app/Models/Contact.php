@@ -10,7 +10,7 @@ class Contact extends Model
     use HasFactory;
 
     protected $guarded = [
-        'id',
+        'id'
     ];
 
     public function category()
