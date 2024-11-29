@@ -29,3 +29,4 @@ Laravel環境構築
 
 ・phpMyAdmin:http://localhost:80:80/
 # -
+# contact-form2
